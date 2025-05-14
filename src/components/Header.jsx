@@ -14,7 +14,7 @@ const Header = () => {
             <div className="z-10">
                 <a className="font-bold text-white md:text-lg" href="/">Kagimbi <span className="bg-gradient-to-r from-purple-600 to-green-600 bg-clip-text text-transparent">Samuel</span></a>
             </div>
-            <Navbar isClicked={isClicked} toggleNavClicked={toggleNavClicked} />
+            <Navbar isClicked={isClicked} toggleNavClick={toggleNavClicked} />
             <button onClick={toggleNavClicked} className="text-white cursor-pointer z-10 flex items-center md:hidden">
                 {
                     isClicked ? <X size={28} /> : <AlignLeft size={28} />
